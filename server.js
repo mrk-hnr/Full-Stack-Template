@@ -23,6 +23,13 @@ MongoClient.connect(dbConnectionString)
     })
 
 
+// STEP 8 - SETTING UP MIDDLEWARE, it needs to be placed BEFORE any CRUD operations
+app.set("view engine", "ejs") 
+app.use(express.static("public")) // creates public folder where css, html, assets, etc... files are located
+app.use(express.urlencoded({extended: true}))
+app.use(express.json())
+app.use(cors())
+
 // STEP 7 (2/2) - ADD PORT ((1/2) is in .env file)
 
 app.listen(process.env.PORT || PORT, () => {

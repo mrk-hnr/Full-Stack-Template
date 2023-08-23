@@ -4,7 +4,7 @@
     // dotenv - hides the secret stuff. Creates environment variables and hides it out of main code e.g database password Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.
     // cors - allows to bypass cors error from running locally.
     // mongodb - database
-    // ejs - helps nodejs create html template
+    // ejs - helps nodejs create html template/helps with templating
     // nodemon - auto refreshes terminal for every save to see changes realtime. Similar to live server but on VSCode terminal. Install using the ff command: npm install nodemon --save-dev
     // go to package.json and add the ff under scripts, quotation included: "dev": "nodemon server.js"
 
@@ -23,7 +23,7 @@
 
 //----Test Mongo and Port Connection
 
-//7. Set middleware
+//8. Set middleware - When transferring data back and forth (database to mobile to whatever), helps read/format data in a way that all parties can understand.
 
 //8. Create Public and Views folders - add main.js and style.css to Public and index.ejs to Views
 
