@@ -6,23 +6,24 @@
     // mongodb - database
     // ejs - helps nodejs create html template
     // nodemon - auto refreshes terminal for every save to see changes realtime. Similar to live server but on VSCode terminal. Install using the ff command: npm install nodemon --save-dev
+    // go to package.json and add the ff under scripts, quotation included: "dev": "nodemon server.js"
 
 //2. Require dependencies in server.js
     // example: const express = require("express")
 
 //3. Declare variables
 
-//7. Create .gitignore file and push to github
-
 //4. Connect to MongoDB - add connection string to .env file
 
-//5. Add .env file to gitignore
+//5 Create .gitignore file and add .env and node_modules file to .gitignore
 
-//5. Create Port
+//6. Push to github
+
+//7. Create Port
 
 //----Test Mongo and Port Connection
 
-//6. Set middleware
+//7. Set middleware
 
 //8. Create Public and Views folders - add main.js and style.css to Public and index.ejs to Views
 

@@ -21,3 +21,10 @@ MongoClient.connect(dbConnectionString)
         db = client.db(dbName)
         collection = db.collection("quotes") // collection/lists under dbName from site.
     })
+
+
+// STEP 7 (2/2) - ADD PORT ((1/2) is in .env file)
+
+app.listen(process.env.PORT || PORT, () => {
+    console.log(`Server is running on port ${process.env.PORT}!`)
+}) // process.env.XXXXX is the syntax to connect variables in env to server.js
