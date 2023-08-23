@@ -21,15 +21,16 @@
 
 //7. Create Port
 
-//----Test Mongo and Port Connection
+//----Test Mongo and Port Connection - USE npm run dev to run after manually adding "dev": "nodemon server.js" in package.json
 
 //8. Set middleware - When transferring data back and forth (database to mobile to whatever), helps read/format data in a way that all parties can understand.
 
-//8. Create Public and Views folders - add main.js and style.css to Public and index.ejs to Views
+//9. Create Public and Views folders - add main.js and style.css to Public and index.ejs to Views
 
-//9. From root, init local git repo and commit
+//10. Add content to index.ejs, style.css, main.js (index.ejs servers .html but may be generated via main.js)
+// In my case, I added my API fetch template for all index, js, and css.
 
-//10. Create heroku repo
+//11. Create heroku repo -- CAN SKIP, HEROKU NO LONGER FREE
 
 // heroku login
 // heroku create simple-rap-api
